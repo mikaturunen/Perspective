@@ -1,0 +1,5 @@
+I wanted to get rid of dependencies to glu when working with OpenGL. gluPerspective was the only function I used from the whole glu-library so I replaced it with this. 
+
+Aims to do the same as gluPerspective and this way get rid of glu-library dependencies completely. Assuming the gluPerspective is the only glu library you are using.
+
+Obviously depends on GL.h and OpenGL libraries to use it successfully, but this is just an example of SetPerspective function for OpengL. 
